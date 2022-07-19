@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 62.5%;
+}
+
+#app {
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.container {
+    background-color: #121923;
+    width: 350px;
+    height: 650px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 30px;
+}
+
+.concentration-of-dust {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    border: 3px solid #FBD56B;
+    box-shadow: 0 0 5px 5px #FBD56B,
+                5px 7px 15px 5px #FBD56B,
+                -10px -10px 15px #FBD56B;
+    margin-left: 5px;
+    display: flex;
+}
+
+.concentration-of-dust span {
+    color: white;
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+.concentration-of-dust h1 {
+    font-size: 58px;
+    color: white;
+    font-weight: 400;
+}
+
+.concentration-of-dust div {
+    margin: auto;
+    text-align: center;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-between;
+}
+
+.item {
+    color: white;
+    text-align: center;
+}
+
+.item h2 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.item span {
+    font-size: 12px;
+}
+
+span.temperature,
+span.humidity,
+span.concentration-of-co2 {
+    font-size: 30px;
+    position: relative;
+    top: -15px;
+}
+
+.controllers {
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.controllers span {
+    color: white;
+    cursor: pointer;
+    font-size: 35px;
+}
+
+.auto {
+    display: flex;
+    align-items: center;
+}
+
+.auto span {
+    margin: 0 12px;
+}
+
+.power.active span{
+    color: #FBD56B;
+}
+
+.auto_list {
+    display: flex;
+    align-items: center;
+}
+
+span.mode {
+    font-size: 20px;
+    margin: 0 4px;
+}
+
+.auto_item {
+    display: flex;
+}
+
+.auto_item--main span{
+    color: #FBD56B;
+}
